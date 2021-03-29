@@ -1,0 +1,30 @@
+#include<studio.h>
+void main()
+{
+int Enter marks=0;
+printf("Enter the marks:");
+scanf("%d",Enter marks);
+m =Enter marks;
+if(m>85 && m<100)
+{
+printf(" Grade A ");
+}
+if(m>84 && m<80)
+{
+printf(" Grade B ");
+}
+
+if(m>55 && m<69)
+{
+printf(" Grade C");
+}
+if(m>40 && m<54)
+{
+printf(" Grade D ");
+}
+if(m<40)
+{
+printf( "Grad F");
+}
+return(0);
+}
